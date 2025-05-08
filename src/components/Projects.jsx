@@ -52,7 +52,6 @@ const prevProject = ()=>{
         </button>
     </div>
 
-    {/* project slider container */}
     <div className='overflow-hidden'>
         <div className='flex gap-8 transition-transform duration-500 ease-in-out'
         style={{transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`}}
